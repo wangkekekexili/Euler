@@ -9,6 +9,9 @@ func TestSumOfMultiplesOf3And5Below(t *testing.T) {
 	}{{
 		target:   10,
 		expected: 23,
+	}, {
+		target:   1000,
+		expected: 233168,
 	}}
 	for _, test := range tests {
 		if sumOfMultiplesOf3And5Below(test.target) != test.expected {
