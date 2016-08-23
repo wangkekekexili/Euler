@@ -1,0 +1,3 @@
+# euler
+
+Just for fun.
